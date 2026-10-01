@@ -1,0 +1,43 @@
+{
+  "name": "AquaEvac — Disaster Evacuation Planner",
+  "short_name": "AquaEvac",
+  "description": "AI-based disaster evacuation, safe-route planning, shelter finder and Emergency SOS for flood-prone areas.",
+  "id": "/dashboard.php",
+  "start_url": "dashboard.php",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FFFFFF",
+  "theme_color": "#F97316",
+  "lang": "en",
+  "categories": ["safety", "utilities", "navigation"],
+  "icons": [
+    {
+      "src": "assets/aquaevac-favicon.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/aquaevac-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/aquaevac-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Send Emergency SOS",
+      "short_name": "SOS",
+      "description": "Open the command center and send an emergency SOS",
+      "url": "dashboard.php?action=sos",
+      "icons": [{ "src": "assets/aquaevac-favicon.png", "sizes": "128x128" }]
+    }
+  ]
+}
